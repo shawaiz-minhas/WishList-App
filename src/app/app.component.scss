@@ -1,0 +1,36 @@
+select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #333;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #eaeaea;
+    }
+
+    &:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    }
+
+    option {
+        padding: 10px;
+        background-color: #f5f5f5;
+        color: #333;
+
+        &:hover {
+            background-color: #eaeaea;
+        }
+
+        &:checked {
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+}
